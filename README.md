@@ -9,7 +9,7 @@ express.Router() --> used to create and maintain modular code while creating rou
 
 
 
-Packages we should be familiar when create express js app
+Packages we should be familiar when create express js app  - https://expressjs.com/en/resources/middleware.html
 
 1) cookie-parser - This package makes the cookies sent in the header of any request to be available in the req object.
 
