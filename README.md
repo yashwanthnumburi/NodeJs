@@ -28,3 +28,19 @@ app.get('/get', (req, res) => {
   console.log(req.cookies); // { lang: 'en' }
   res.send(`Cookie value: ${req.cookies.lang}`);
 });
+
+
+
+--------------------------------------------------------------------------------------
+1) NodeJs Streams -> Request , file read/write
+2) NodeJs Buffers -> Array of Bytes
+3) http -> http.createServer
+4) path -> path__dirname
+5) fs -> fs.createWriteStream, fs.createReadStream, fs.write, fs.writeSync, fs.read, fs.readSync
+6) pipe -> pipe events
+7) express js
+8) app.use -> can attach a middleware which will be executed for all the request.
+9) app.get -> will be executed only for get method and for that req url
+10) req -> req.body (app.use(bodyParser.json()), req.method, req.url
+11) res -> res.status(), res.send()
+12) 
